@@ -10,13 +10,13 @@ Since the product has [become
 archived](https://arslan.io/2018/10/09/taking-an-indefinite-sabbatical-from-my-projects/),
 I've decided to create this hard fork to add additional functionality.
 
-## Install
-
-```bash
-go get github.com/flowchartsman/structs
-```
-
 ## Usage and Examples
+
+```go
+import (
+    "github.com/flowchartsman/structs"
+)
+```
 
 Just like the standard lib `strings`, `bytes` and co packages, `structs` has
 many global functions to manipulate or organize your struct data. Lets define
