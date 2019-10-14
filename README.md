@@ -1,10 +1,14 @@
 # Structs [![GoDoc](http://img.shields.io/badge/go-documentation-blue.svg?style=flat-square)](http://godoc.org/github.com/flowchartsman/structs) [![Build Status](http://img.shields.io/travis/flowchartsman/structs.svg?style=flat-square)](https://travis-ci.org/flowchartsman/structs) [![Coverage Status](http://img.shields.io/coveralls/flowchartsman/structs.svg?style=flat-square)](https://coveralls.io/r/flowchartsman/structs)
 
 Structs contains various utilities to work with Go (Golang) structs. It was
-initially used by me to convert a struct into a `map[string]interface{}`. With
-time I've added other utilities for structs.  It's basically a high level
-package based on primitives from the reflect package. Feel free to add new
-functions or improve the existing code.
+initially written by [Fatih Arslan](https://github.com/fatih) for the use case of
+converting structs into  `map[string]interface{}`, with other high-level utility
+functions added over time. It's basically a high level package based on
+primitives from the reflect package.
+
+Since the product has [become
+archived](https://arslan.io/2018/10/09/taking-an-indefinite-sabbatical-from-my-projects/),
+I've decided to create this hard fork to add additional functionality.
 
 ## Install
 
